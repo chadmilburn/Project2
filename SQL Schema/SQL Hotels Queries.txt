@@ -1,0 +1,26 @@
+-- Aggregated for all hotels over the entire time period
+select name, avg(reviews_rating)
+from hotel
+group by name;
+
+-- Aggregated for months over the entire time period
+select reviews_date, avg(reviews_rating)
+from hotel
+group by reviews_date;
+
+-- Aggregated by hotel per month
+select name, reviews_date, avg(reviews_rating)
+from hotel
+group by reviews_date, name
+order by name, reviews_date;
+
+-- Worst review score for the hotel property
+select name, min(reviews_rating)
+from hotel
+group by name
+order by min(reviews_rating);
+
+-- Worst review score to read the worst reviews
+select name, reviews_text
+from hotel
+where reviews_rating = 1;

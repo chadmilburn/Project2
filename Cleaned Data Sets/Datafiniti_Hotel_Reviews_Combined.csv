@@ -1,4 +1,4 @@
-address,categories,city,latitude,longitude,name,postalCode,province,reviews.date,reviews.rating,reviews.text,reviews.userProvince
+address,categories,city,latitude,longitude,name,postalCode,province,reviews_date,reviews_rating,reviews_text,reviews_userProvince
 1 Main St,Hotels,Las Vegas,36.171617,-115.146375,Plaza Hotel and Casino - Las Vegas,89101,NV,July,4.0,good but bathroom should definitily have exhaust fan,
 1 Main St,Hotels,Las Vegas,36.171617,-115.146375,Plaza Hotel and Casino - Las Vegas,89101,NV,July,4.0,"The bottom of the tub in the bathroom was old, stained and dirty and I didn't even want to shower in it!",
 1 Main St,Hotels,Las Vegas,36.171617,-115.146375,Plaza Hotel and Casino - Las Vegas,89101,NV,July,3.0,there was some ants inside the room at last night and the staff is not helpful,
