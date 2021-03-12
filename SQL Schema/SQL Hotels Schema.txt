@@ -1,0 +1,17 @@
+DROP TABLE "hotel";
+
+
+CREATE TABLE "hotel" (
+    "address" VARCHAR,
+    "categories" VARCHAR,
+    "city" VARCHAR,
+    "latitude" VARCHAR,
+    "longitude" VARCHAR,
+    "name" VARCHAR,
+    "postalCode" VARCHAR,
+    "province" VARCHAR,
+    "reviews_date" VARCHAR,
+    "reviews_rating" FLOAT,
+    "reviews_text" VARCHAR,
+	"reviews_userProvince" VARCHAR
+);
